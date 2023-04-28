@@ -5,7 +5,7 @@ const cors = require("cors");
 const mysql = require("mysql2");
 
 const db = mysql.createPool({
-  host: "localhost",
+  host: "long-hose-hen.cyclic.app",
   user: "root",
   password: "MySQL2912@",
   database: "assg1",
